@@ -1,0 +1,21 @@
+{
+  "name": "materialicons.css",
+  "version": "1.0.0",
+  "description": "Icons for your website!",
+  "main": "css/materialicons.css",
+  "repository": "https://github.com/Shukaaku/materialicons.css.git",
+  "author": "1chiSensei <mail@1chi.tk>",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "build": "rimraf css && gulp sass"
+  },
+  "devDependencies": {
+    "@types/gulp": "^4.0.8",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-sass": "^5.0.0",
+    "rimraf": "^3.0.2"
+  }
+}
